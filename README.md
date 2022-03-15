@@ -8,28 +8,28 @@ This project allows `admin`
 ```
 --- src
     |---main
-          |---java
-                |---Application.java
-                |---com.covid.info
-                          |---controller
-                                  |---HomeController
-                                  |---PersonController
-                          |---domain
-                                  |---Person
-                          |---repository
-                                  |---PersonRepository
-                          |---service
-                                  |---PersonService
-                                  |---PersonServiceImplementation
-         |---resources
-               |---templates
-                          |---addUser.html
-                          |---home.html
-                          |---patients.html
-                          |---update.html
-   |---test
-          |---java
-                |---PersonServiceUnitTest             
+    |     |---java
+    |     |       |---Application.java
+    |     |       |---com.covid.info
+    |     |                 |---controller
+    |     |                 |        |---HomeController
+    |     |                 |        |---PersonController
+    |     |                 |---domain
+    |     |                 |        |---Person
+    |     |                 |---repository
+    |     |                 |        |---PersonRepository
+    |     |                 |---service
+    |     |                          |---PersonService
+    |     |                          |---PersonServiceImplementation
+    |     |---resources
+    |          |---templates
+    |                      |---addUser.html
+    |                      |---home.html
+    |                      |---patients.html
+    |                      |---update.html
+    |---test
+         |---java
+               |---PersonServiceUnitTest             
 ```
 
 ### How it works like - Demo
